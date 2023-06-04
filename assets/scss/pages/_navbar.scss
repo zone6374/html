@@ -1,0 +1,22 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo{
+        width: 300px;
+        margin-right: 15px;
+    }
+
+    .otherMenu{
+        width: calc(100% - 315px);
+        ul{
+            display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+        }
+    }
+}
